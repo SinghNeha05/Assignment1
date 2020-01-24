@@ -1,0 +1,36 @@
+#main {
+  overflow: hidden;
+  width: 70%;
+}
+
+#title {
+  font-size: x-large;
+  display: block;
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 2px;
+  padding-top: 8px;
+}
+.headSection {
+  background-color: gray;
+  text-align: center;
+}
+#img-div {
+  background-image: url("images/subhashChandra.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 608px) {
+  #img-div {
+    height: 243vh;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 607px) {
+  #img-div {
+    height: 243vh;
+  }
+}
